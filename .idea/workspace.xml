@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00856fa9-4873-42ef-9cbc-968f361b933d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/cat_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Templates/product_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/cart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/cart/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/products/apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/products/migrations/0003_auto_20210319_1002.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/products/migrations/0004_auto_20210320_0641.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuySmart/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuySmart/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuySmart/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuySmart/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/templates/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/products/migrations/0002_auto_20210317_1019.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/products/migrations/0002_auto_20210317_1019.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/products/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/products/templates/cat_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/products/templates/product_detail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1prozbtB6oix9XpLH2yFS72CIx0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00856fa9-4873-42ef-9cbc-968f361b933d" name="Default Changelist" comment="" />
+      <created>1615950834298</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1615950834298</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1616565239361">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1616565239361" />
+    <state x="184" y="28" key="SettingsEditor" timestamp="1615951191843">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="184" y="28" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1615951191843" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1616303035536">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1616303035536" />
+  </component>
+</project>

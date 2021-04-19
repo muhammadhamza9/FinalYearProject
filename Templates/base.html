@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %} | Buy-Smart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav aria-label="main navigation" class="navbar is-dark" role="navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="#">
+                Buy-Smart
+            </a>
+
+            <a aria-expanded="false" aria-label="menu" class="navbar-burger" data-target="menu" role="button">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+
+        <div class="navbar-menu container " id="menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="{% url 'home' %}">Home</a>
+                <a class="navbar-item">Products</a>
+
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">Category</a>
+                    <div class="navbar-dropdown">
+                        {% for category in menu_categories %}
+                            <a href="{% url 'cat_detail' category.slug %}" class="navbar-item">{{ category.title }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+
+                <a class="navbar-item" href="{% url 'contact' %}">Contact</a>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="buttons">
+                        <a class="button is-primary"><strong>Sign up</strong></a>
+                        <a class="button is-light">Log in</a>
+                        <a class="button is-success" href="{% url 'cart' %}">Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="section">
+        {% block content %}
+        {% endblock %}
+    </section>
+
+    <footer class="footer">
+        <div class="columns">
+            <div class="column is-4">
+                <h2 class="subtitle">BuySmart</h2>
+            </div>
+            <div class="column is-8">
+                <a class="navbar-item" href="{% url 'contact' %}">Contact</a>
+            </div>
+        </div>
+    </footer>
+    {% block script %}
+    {% endblock %}
+</body>
+</html>
